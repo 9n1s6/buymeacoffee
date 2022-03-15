@@ -72,7 +72,6 @@ export default function Header({ username }: HeaderProps): JSX.Element {
     <HeaderContainer>
       <div className="header-container">
         <div className="header-1">
-          <!--Avatar src={`https://steemitimages.com/u/${username}/avatar`} /-->
           <Username>{username}</Username>
         </div>
         <div className="header-2"></div>
